@@ -1,0 +1,176 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e00aaf14-0eec-4508-9d34-81dfd62803c1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BILL RATE DIM</ID>
+  <Name>BILL RATE DIM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1805" scrolltop="-5715" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7091" y="9816" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="BILL_RATE_DIM" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3440" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000700d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BILL_RATE_DIM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1805</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5715</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cc44982a-28bb-42e1-86ae-7b5a75b3de8d">
+    <DataSourceViewID>EOPS DM</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="416df54c-5735-400d-9ad6-8281213fc566">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="6c99214e-f03a-4adc-921e-735dfb6cbf16">
+      <ID>BILL RATE KEY</ID>
+      <Name>BILL RATE KEY</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c0764ae-6029-4b7f-8c1f-d20b9b32c073">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8bd6365-d0c1-4754-9716-baef74b69a77">
+            <TableID>dbo_BILL_RATE_DIM</TableID>
+            <ColumnID>BILL_RATE_KEY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="86064f41-a01f-4aa9-984e-f1c4121e7a02">
+          <AttributeID>ROLE</AttributeID>
+          <Name>ROLE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9b5946d1-6faf-4c14-aaf9-0f95466068a5">
+          <AttributeID>BILL RATE</AttributeID>
+          <Name>BILL RATE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b75b5fc4-92f9-489c-a679-76aa9eeda52c">
+          <AttributeID>ONSITE FLAG</AttributeID>
+          <Name>ONSITE FLAG</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14f07dfe-8edd-4b66-b651-ae7da62e470f">
+          <AttributeID>UPDATE DATE</AttributeID>
+          <Name>UPDATE DATE</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3cd13ac6-4a41-4f06-965a-b38e476733db">
+      <ID>ROLE</ID>
+      <Name>ROLE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="492432bb-a441-4b7d-9c2c-999d04e26ac1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2d71ce7f-bc30-4262-9dcf-ff55aa803c66">
+            <TableID>dbo_BILL_RATE_DIM</TableID>
+            <ColumnID>ROLE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="885ae821-2897-4c08-a218-8141567e7576">
+      <ID>BILL RATE</ID>
+      <Name>BILL RATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ce54af8-a275-4daa-8a12-1a00e2041ec6">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47e30baa-39ee-4b11-824d-2aabca49ff06">
+            <TableID>dbo_BILL_RATE_DIM</TableID>
+            <ColumnID>BILL_RATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f33cd314-2921-4457-8a46-d1d61f9d2e24">
+      <ID>ONSITE FLAG</ID>
+      <Name>ONSITE FLAG</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ff0c2f1d-06af-47d4-8f78-803e4fc44e30">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02c799f9-41c7-43d2-84e0-fa7935684ad8">
+            <TableID>dbo_BILL_RATE_DIM</TableID>
+            <ColumnID>ONSITE_FLAG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d62a28da-6704-4f56-b1da-678ff1e4009b">
+      <ID>UPDATE DATE</ID>
+      <Name>UPDATE DATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="769e85fb-78ba-44c3-a831-4aa1672a57c6">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c72277d-9746-472f-8242-37cf079773df">
+            <TableID>dbo_BILL_RATE_DIM</TableID>
+            <ColumnID>UPDATE_DATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

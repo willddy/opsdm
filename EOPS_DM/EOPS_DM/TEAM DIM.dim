@@ -1,0 +1,339 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8802cbc4-b603-4bd6-a277-e8cea10b822d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>TEAM DIM</ID>
+  <Name>TEAM DIM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1938" scrolltop="-5292" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22595" y="15319" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="TEAM_DIM" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3307" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000eb0c000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TEAM_DIM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="TARGET_DIM" left="5450" top="2011" logicalid="3" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b60f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TARGET_DIM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3027" top="1748" logicalid="4" controlid="3" masterid="0" hint1="0" hint2="0" width="2723" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_TEAM_DIM_REFERENCE_TARGET_D]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5450" y="2147" />
+              <point x="4389" y="2147" />
+              <point x="4389" y="2209" />
+              <point x="3327" y="2209" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1938</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5292</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="85">
+            <Shape Id="TEAM KEY" Expanded="true">
+              <Attributes>
+                <Attribute Id="TEAM KEY" />
+                <Attribute Id="ACTIVE FLAG" />
+                <Attribute Id="DATE END" />
+                <Attribute Id="DATE START" />
+                <Attribute Id="DEPT NAME" />
+                <Attribute Id="SOW NUM" />
+                <Attribute Id="TARGET TYP" />
+                <Attribute Id="TARGET VALUE" />
+                <Attribute Id="TEAM NAME" />
+                <Attribute Id="UPDATE DATE" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="57b2916c-98f9-48fb-972a-8987a4d5a0d8">
+    <DataSourceViewID>EOPS DM</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="cc8a2fe1-57ca-4be3-8cd7-218123288c9d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="4499c237-cf03-4d11-92d7-e254ab7c6724">
+      <ID>TEAM KEY</ID>
+      <Name>TEAM KEY</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1adf7f5-9048-4212-8dbe-77a39cd86944">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9378155a-a95e-420c-8cd9-31a0cb0550dd">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>TEAM_KEY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="93903bf9-9ceb-48a0-95ab-890b8125b3b1">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="81e50386-9e11-4dd2-b280-33fe9eda8320">
+          <TableID>dbo_TEAM_DIM</TableID>
+          <ColumnID>TEAM_NAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="605ba454-c359-416e-aed2-91e89ae10af2">
+          <AttributeID>TEAM NAME</AttributeID>
+          <Name>TEAM NAME</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1a1c80f9-1b15-4b2e-a5dc-d7066ba19e48">
+          <AttributeID>DEPT NAME</AttributeID>
+          <Name>DEPT NAME</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4efb096d-30a7-4138-98a6-1650a505527e">
+          <AttributeID>SOW NUM</AttributeID>
+          <Name>SOW NUM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f5d189cc-33c6-40e5-86dc-d01dc14c513e">
+          <AttributeID>DATE START</AttributeID>
+          <Name>DATE START</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bec6c581-8eea-4621-ad10-a3638eaefed1">
+          <AttributeID>DATE END</AttributeID>
+          <Name>DATE END</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="373e88af-afaf-4287-8dcd-5b703c2d00bc">
+          <AttributeID>ACTIVE FLAG</AttributeID>
+          <Name>ACTIVE FLAG</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a467a85c-063f-4938-b904-0ad220b929df">
+          <AttributeID>UPDATE DATE</AttributeID>
+          <Name>UPDATE DATE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3764af2c-9be1-4757-afd9-c61b5e70cf3c">
+          <AttributeID>TARGET VALUE</AttributeID>
+          <Name>TARGET VALUE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e615ec03-0856-4ea8-b10f-3773a1080ab4">
+          <AttributeID>TARGET TYP</AttributeID>
+          <Name>TARGET TYP</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15be93a8-be36-4ca8-8ada-e58caeb038e1">
+      <ID>TEAM NAME</ID>
+      <Name>TEAM NAME</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="39d4d8a3-7b4e-430e-a141-3536d6d0a383">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="670b0c7f-c12d-456c-beb6-01811097e34c">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>TEAM_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="91158dfa-ce52-42a4-bdb0-3858e1952b6e">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9b6df82d-3e50-4c84-80eb-eed372ac6f6c">
+          <TableID>dbo_TEAM_DIM</TableID>
+          <ColumnID>TEAM_NAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="55256ce0-57e3-4bea-ae11-cdbc5ceb0521">
+      <ID>DEPT NAME</ID>
+      <Name>DEPT NAME</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6910a823-1ad6-4adc-8e24-39629bc8a24c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a8bcf38-c609-4699-97dc-71c0a02b2326">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>DEPT_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="799be851-55e1-42d2-921f-88b1c1e7ad1f">
+      <ID>SOW NUM</ID>
+      <Name>SOW NUM</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="36bc82ff-e5da-4509-b9d1-0ced78e3ab53">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0d8eaa8-50fc-4584-a107-597fb1ed0840">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>SOW_NUM</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1aaab0ee-6f90-443e-90ca-c6d22bfff8b3">
+      <ID>DATE START</ID>
+      <Name>DATE START</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e8ce4ad-4fbf-4da1-b723-e901f59317b1">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bd7ff23-f00b-4143-bb6b-03646e486184">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>DATE_START</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa31a8ec-05fe-4f74-821e-c47118563b14">
+      <ID>DATE END</ID>
+      <Name>DATE END</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eea0860f-dc22-4064-b89a-cb86e736064b">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfee1b08-c4cf-454a-a45d-41d49fc293c2">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>DATE_END</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2dcfb071-b212-4250-ae72-9fc070a2fbd8">
+      <ID>ACTIVE FLAG</ID>
+      <Name>ACTIVE FLAG</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a7c031aa-2f20-42ce-b321-ec220dcbce77">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bbe2ad2a-39ec-4e80-aafe-6d809d2af149">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>ACTIVE_FLAG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="96da5e7d-cdde-4991-af92-9d2c87753c1c">
+      <ID>UPDATE DATE</ID>
+      <Name>UPDATE DATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="379696fd-c382-43b7-9ed5-62ddf35a9c53">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="972f0593-812a-4625-8dde-9420ce077c5f">
+            <TableID>dbo_TEAM_DIM</TableID>
+            <ColumnID>UPDATE_DATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba6c7b0a-1e21-4d6d-a8f2-c9522a2e853b">
+      <ID>TARGET VALUE</ID>
+      <Name>TARGET VALUE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d2f5484c-8a73-4a9f-8682-921ef64d2089">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed770416-691f-4060-8939-229bf525e4a0">
+            <TableID>dbo_TARGET_DIM</TableID>
+            <ColumnID>TARGET_VALUE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="002c589a-7096-499e-9af5-40258e0dedab">
+      <ID>TARGET TYP</ID>
+      <Name>TARGET TYP</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f444adcc-6755-43e1-8f09-2872b8ae4b71">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58ade708-108e-4fd0-9c2e-e08208ff7e4a">
+            <TableID>dbo_TARGET_DIM</TableID>
+            <ColumnID>TARGET_TYP</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

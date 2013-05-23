@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "EOPS_DM_RPT", "EOPS_DM_RPT\EOPS_DM_RPT.rptproj", "{BD3AF719-C516-42E6-98DB-0F29B9BCF536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.Debug|Default.ActiveCfg = Debug
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.Debug|Default.Build.0 = DebugLocal
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.Debug|Default.Deploy.0 = DebugLocal
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.DebugLocal|Default.Build.0 = DebugLocal
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.Release|Default.ActiveCfg = Release
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.Release|Default.Build.0 = Release
+		{BD3AF719-C516-42E6-98DB-0F29B9BCF536}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

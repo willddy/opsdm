@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a493b67d-6738-46ac-993a-1bcea2e529fd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>EOPS DM</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>EMP FACT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="376d144f-22bb-4294-820b-1ea9caede4b0">
+          <ID>EMP FACT</ID>
+          <Name>EMP FACT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ed9726dd-8912-491b-b724-ec3590fed246">
+            <DataSourceViewID>EOPS DM</DataSourceViewID>
+            <TableID>dbo_EMP_FACT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FIN PL FACT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9f283135-2fbe-45ea-93bc-51b99ed80d16">
+          <ID>FIN PL FACT</ID>
+          <Name>FIN PL FACT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d95e951d-e2df-4e79-83e2-ca8f9d74f001">
+            <DataSourceViewID>EOPS DM</DataSourceViewID>
+            <TableID>dbo_FIN_PL_FACT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

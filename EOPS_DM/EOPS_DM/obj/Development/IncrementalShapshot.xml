@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>EOPS_DM</Database>
+    <Server>172.18.2.217</Server>
+    <ConnectionString>DataSource=172.18.2.217;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>f/X7t8a1oTQPN4Fyh0xEDA==6/30/2011 2:50:11 PM6/23/2011 4:33:10 PM</TimeStamp>
+        <ID>
+          <String>EOPS DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XYV4nhsI8zWWVRMCmLjurw==7/29/2011 3:35:30 PM6/23/2011 4:37:42 PM</TimeStamp>
+        <ID>
+          <String>EOPS DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uVePqtE8hSHmDDwl4ro5BQ==7/29/2011 3:35:30 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>TEAM DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wGME2WewK28fhfzo2l0WOQ==6/27/2011 7:42:32 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>LVL DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fy6QfeJfuSpG7whjw/0RhQ==6/27/2011 7:26:34 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>DATE DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UsGmPw4FyWxN0GX/LTFplg==6/27/2011 7:42:32 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>POS DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PgM3LD4x8Rt37OePGkD7GA==6/30/2011 2:33:06 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>BILL RATE DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aOsgNk2+cIZvxpQc2GI0gw==6/27/2011 7:41:27 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>CURRENCY RATE DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dRv6euhGVOcZYG40MgFO5Q==7/27/2011 10:43:46 AM7/27/2011 10:43:46 AM</TimeStamp>
+        <ID>
+          <String>TARGET DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Td8uNAOAUlFTtkveHv2JlQ==7/29/2011 3:35:29 PM6/23/2011 4:49:22 PMX+G1ZRKVh1vanHsQtbU8jA==6/27/2011 8:08:00 PM6/23/2011 4:49:22 PM</TimeStamp>
+        <ID>
+          <String>EOPS DM</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>A5n2HZKdDCNFfJ4IhX9icQ==6/23/2011 4:26:41 PM6/23/2011 4:26:40 PM</TimeStamp>
+      <ID>
+        <String>EOPS_DM</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2011-07-29T07:36:08.766667Z</LastDeployed>
+</DeploymentSnapshot>
