@@ -1,5 +1,5 @@
 ### Design
------
+
 1. The EOPS is the operation system. The payroll and invoice are sperated into monthly basis. They are merged seperatelly by views. Will merge them into two tables, EOPS_INVOICES and EOPS_PAYROLLS
 
 2. The EOPS DM is OLAP system in relation model. Currently, it is built into OLAP cube by MS SQL server 2008 AS
@@ -10,11 +10,11 @@
 
 
 ### Operation for update
------
+
 1. Inport monthly payroll and invoice according to the DB structure
 
 2. update the following views
-		Import_View_Invoice_Union
+    	Import_View_Invoice_Union
 		Import_View_Payroll_Union
 
 3. load FIN_PL_FACT 
@@ -28,8 +28,7 @@ __Note__: For security reason, there is no data/meta data in it
 
 
 ### Version History
------
-__V1.0__
+`V1.0`
 
 1. Create EOPS and EOPS_DM database
 2. Create ROLAP model in AS in SQL server 2008
