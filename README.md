@@ -30,6 +30,7 @@ __Note__: For security reason, there is no data/meta data in it
 ### Version History
 -----
 __V1.0__
+
 1. Create EOPS and EOPS_DM database
 2. Create ROLAP model in AS in SQL server 2008
 3. Create "Team P&L Target" and "Department P&L" report
